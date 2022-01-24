@@ -1,12 +1,10 @@
-const ms = require('ms')
 module.exports =
 {
-    name: 'mute',
-    description: "Mute an user",
+    name: 'unmute',
+    description: "Unmute an user",
     async execute(message, args, client)
     {
         var reason
-        var time
         var target
 
         if(!message.member.permissions.has('MODERATE_MEMBERS'))
@@ -24,17 +22,10 @@ module.exports =
             }
         }
 
-        try {   
-            time = ms(args[1])
-            args.shift()
-        } catch (error) {
-            time = ms('60s')
-        }
-
         args.shift()
         reason = args.join(' ')
         
-        target.timeout(time, reason)
+        target.timeout(null, reason)
         .catch(console.error);
     }
 }
