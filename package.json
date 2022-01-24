@@ -18,6 +18,7 @@
   "homepage": "https://github.com/minatore06/EpicBot#readme",
   "dependencies": {
     "discord.js": "^13.6.0",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "ms": "^2.1.3"
   }
 }
