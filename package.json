@@ -1,0 +1,19 @@
+{
+  "name": "epicbot",
+  "version": "0.0.1",
+  "description": "Bot incredibile creato in collaborazione dal mina e dal good",
+  "main": "bot.js",
+  "scripts": {
+    "test": "e!ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minatore06/EpicBot.git"
+  },
+  "author": "Mina#3690",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minatore06/EpicBot/issues"
+  },
+  "homepage": "https://github.com/minatore06/EpicBot#readme"
+}
